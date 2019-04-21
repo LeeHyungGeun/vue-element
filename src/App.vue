@@ -2,7 +2,9 @@
   <div>
     <Radio name="fruit" value="apple" label="Apple" id="fruit1" :model="model" />
     <Radio name="fruit" value="pineapple" label="Pineapple" id="fruit2" :model="model" />
-    {{model.fruit}}
+    <Dropdown>
+      Ken
+    </Dropdown>
   </div>
 </template>
 
